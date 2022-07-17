@@ -1,10 +1,10 @@
 ## JavaScript Moderno - Lección 3
 
-PRIMER COMANDO DE JS (alert)
-Alert
-Inline 
-archivos
-console.log
+* PRIMER COMANDO DE JS (alert)
++ Alert
+* Inline 
+* archivos
+* console.log
 
 Todos los archivos traducidos del canal original de ‘Net Ninja’.  Contienen las 6 lecciones del tutorial ‘Modern JavaScript Tutorial’.
 
