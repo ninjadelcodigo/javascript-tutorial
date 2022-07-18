@@ -1,4 +1,4 @@
-## JavaScript Moderno - Lección 4
+# JavaScript Moderno - Lección 4
 
 * Variables
 * let, const y var
@@ -8,10 +8,10 @@
 * tipos de data
 
 
-# Introducción a Strings
+## Introducción a Strings
 * En cualquier lenguaje de programación, un string es una secuencia de caracteres usado para representar el texto. En JavaScript, un String es uno de los valores primitivos y el objeto String es un envoltorio alrededor de un String primitivo.
 
-# Ejemplos:
+### Ejemplos:
 * strings
 * strings concatenation (concetanezación de cadenas)
 * acceder a caracteres
