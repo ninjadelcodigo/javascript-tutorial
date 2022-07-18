@@ -1,7 +1,7 @@
-## JavaScript Moderno - Lección 3
+# JavaScript Moderno - Lección 3
 
 + invoking JS files (usando archivos externos)
-+ alert
+* alert
 * console.log
 * const, let y var
 
