@@ -21,6 +21,7 @@
 * slice method in string
 * substring method in string
 * reassing variable - use substring with start only (reasignar variable - usar substring con solo comienzo) 
+* replace method (método remplazar)
 
 **Link al curso traducido en YouTube:** [JavaScript Moderno](https://www.youtube.com/channel/UCuSHTq2yiCY5QBNoEXv8JpA/)
 

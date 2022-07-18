@@ -38,3 +38,6 @@ console.log(resultadoSubstring2);
 resultadoSubstring = nombreCompleto.substring(6);
 console.log(resultadoSubstring);
 
+// replace method (método remplazar)
+let emailRemplazar = email.replace("n", "w");
+console.log(emailRemplazar);
