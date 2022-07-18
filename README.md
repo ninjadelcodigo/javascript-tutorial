@@ -1,16 +1,22 @@
-## JavaScript Moderno - Lección 3
+## JavaScript Moderno - Lección 4
 
-PRIMER COMANDO DE JS (alert)
-Alert
-Inline 
-archivos
-console.log
+* Variables
+* let, const y var
+* nombres de variables y restricciones
+* commentarios
+* usar Chrome para const y let
+* tipos de data
 
-Todos los archivos traducidos del canal original de ‘Net Ninja’.  Contienen las 6 lecciones del tutorial ‘Modern JavaScript Tutorial’.
 
-### Cómo usar este repositorio
+# Introducción a Strings
+* En cualquier lenguaje de programación, un string es una secuencia de caracteres usado para representar el texto. En JavaScript, un String es uno de los valores primitivos y el objeto String es un envoltorio alrededor de un String primitivo.
 
---TODO--##
+# Ejemplos:
+* strings
+* strings concatenation (concetanezación de cadenas)
+* acceder a caracteres
+* longitud de string
+* métodos de string
 
 **Link al curso traducido en YouTube:** [JavaScript Moderno](https://www.youtube.com/channel/UCuSHTq2yiCY5QBNoEXv8JpA/)
 
