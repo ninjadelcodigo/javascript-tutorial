@@ -1,22 +1,20 @@
-# JavaScript Moderno - Lección 4
+# JavaScript Moderno - Lección 5 (Numbers y Strings)
 
-* Variables
-* let, const y var
-* nombres de variables y restricciones
-* commentarios
-* usar Chrome para const y let
-* tipos de data
+* Number types and operations (tipo Number y operaciones)
+* template strings (plantillas de cadenas)
+* concatenation way (forma de concatenación)
+* template string way (forma de plantilla de cadena)
+* creating html templates (creando plantillas de html)
+* using console vs. browser (mostrar en consola vs. en browser)
+
+## Notas
+* usar concatenación cuando hay una sola variable
+* usar templates cuando hay varias variables y para crear html
 
 
-## Introducción a Strings
-* En cualquier lenguaje de programación, un string es una secuencia de caracteres usado para representar el texto. En JavaScript, un String es uno de los valores primitivos y el objeto String es un envoltorio alrededor de un String primitivo.
-
-### Ejemplos:
-* strings
-* strings concatenation (concetanezación de cadenas)
-* acceder a caracteres
-* longitud de string
-* métodos de string
+# Referencia
+* tiempo aprox.:  16 mins
+ Net Ninja Tutorial #2 (36:24 - 52:21) 
 
 **Link al curso traducido en YouTube:** [JavaScript Moderno](https://www.youtube.com/channel/UCuSHTq2yiCY5QBNoEXv8JpA/)
 
