@@ -1,16 +1,9 @@
 ## JavaScript Moderno - Lección 3
 
-* PRIMER COMANDO DE JS (alert)
-+ Alert
-* Inline 
-* archivos
++ invoking JS files (usando archivos externos)
++ alert
 * console.log
-
-Todos los archivos traducidos del canal original de ‘Net Ninja’.  Contienen las 6 lecciones del tutorial ‘Modern JavaScript Tutorial’.
-
-### Cómo usar este repositorio
-
---TODO--##
+* const, let y var
 
 **Link al curso traducido en YouTube:** [JavaScript Moderno](https://www.youtube.com/channel/UCuSHTq2yiCY5QBNoEXv8JpA/)
 
