@@ -6,6 +6,7 @@
 * commentarios
 * usar Chrome para const y let
 * tipos de data
+* Intro de strings y metodos
 
 
 ## Introducción a Strings
