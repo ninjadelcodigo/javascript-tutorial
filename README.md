@@ -1,20 +1,16 @@
-# JavaScript Moderno - Lección 5 (Numbers y Strings)
+# JavaScript Moderno - Lección 5 (Numbers)
 
-* Number types and operations (tipo Number y operaciones)
-* template strings (plantillas de cadenas)
-* concatenation way (forma de concatenación)
-* template string way (forma de plantilla de cadena)
-* creating html templates (creando plantillas de html)
-* using console vs. browser (mostrar en consola vs. en browser)
-
-## Notas
-* usar concatenación cuando hay una sola variable
-* usar templates cuando hay varias variables y para crear html
+* number types and operations (tipo Number y operaciones)
+* math operators
+* order of operators
+* operations on a variable
+* Not a Number (NaN)
+* concatenar numeros a cadenas 
 
 
 # Referencia
-* tiempo aprox.:  16 mins
- Net Ninja Tutorial #2 (36:24 - 52:21) 
+* tiempo aprox.:  9 mins
+* Net Ninja Tutorial #2 (36 - 45) 
 
 **Link al curso traducido en YouTube:** [JavaScript Moderno](https://www.youtube.com/channel/UCuSHTq2yiCY5QBNoEXv8JpA/)
 
