@@ -1,4 +1,4 @@
-# JavaScript Moderno - Lección 7 (Arreglos) (Arrays)
+# Tutorial de JavaScript Moderno - Lección 7 (Arreglos) (Arrays)
 * ejemplo simple de arreglos
 * acceder valor de array usando indice
 * cambiar elemento de array
