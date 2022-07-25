@@ -1,7 +1,7 @@
-# JavaScript Moderno - Lección 6 (Template strings)
+# JavaScript Moderno - Lección 6 (Plantillas de Strings) (Template strings)
 * template strings (plantillas de cadenas)
 * concatenation way (forma de concatenación)
-* template string way (forma de plantilla de cadena)
+* push / pop (destructive methods because they alter the variable)
 * creating html templates (creando plantillas de html)
 * using console vs. browser (mostrar en consola vs. en browser)
 
