@@ -1,34 +1,20 @@
-// ejemplo simple de arreglos
-let ninjas = ['mario', 'toad', 'peach'];
-console.log(ninjas);
+// definir variables (dos cadenas y un número)
+const titulo = 'Mejores Lecturas del 2022';
+const autor = 'Mario';
+const likes = 30;
 
-// acceder valor de array usando indice
-console.log(ninjas[1]);
-
-// cambiar elemento de array
-ninjas[1] = 'bowser';
-console.log(ninjas);
-
-// usar diferentes tipos en arreglo
-let random = ['yoshi', 'luigi', 10 , 20];
-
-// propiedades de arreglos
-console.log(ninjas.length);
-
-// métodos de arreglos 
-let resultado = ninjas.join(",");
+// forma de concatenación de cadenas
+resultado = 'El blog llamado ' + titulo + ' por ' + autor + ' tiene ' + likes + ' likes';
 console.log(resultado);
 
-resultado = ninjas.concat(random);
+// usando plantialls de cadena (intro)
+resultado = `El blog llamado ${titulo} por ${autor} tiene ${likes} liles`;
 console.log(resultado);
 
-// (el valor de ninjas sigue siendo el mismo)
-console.log(ninjas);        
-
-// métodos destructivos (cambian el valor original de variable)
-ninjas.push('wario');
-console.log(ninjas);
-
-ninjas.pop('wario');
-console.log(ninjas);
-
+// creando plantillas de html
+let html = `
+    <h2>${titulo}</h2>
+    <p>Por ${autor}</p>
+    <span>Este blog tiene ${likes} likes
+`;
+console.log(html);
