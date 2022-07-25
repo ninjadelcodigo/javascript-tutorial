@@ -1,17 +1,10 @@
-# JavaScript Moderno - Lección 6 (Plantillas de Strings) (Template strings)
-* template strings (plantillas de cadenas)
-* concatenation way (forma de concatenación)
-* push / pop (destructive methods because they alter the variable)
-* creating html templates (creando plantillas de html)
-* using console vs. browser (mostrar en consola vs. en browser)
+# JavaScript Moderno - Lección 7 (Arreglos) (Arrays)
+* ejemplo simple de arreglos
+* acceder valor de array usando indice
+* cambiar elemento de array
+* métodos de arreglos 
+* métodos destructivos (cambian el valor original de variable)
 
-## Notas
-* usar concatenación cuando hay una sola variable
-* usar templates cuando hay varias variables y para crear html
-
-# Referencia
-* tiempo aprox.:  6 mins
-* Net Ninja Tutorial #2 (46 - 52) 
 
 **Link al curso traducido en YouTube:** [JavaScript Moderno](https://www.youtube.com/channel/UCuSHTq2yiCY5QBNoEXv8JpA/)
 
