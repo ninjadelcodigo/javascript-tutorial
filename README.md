@@ -1,10 +1,25 @@
 ## JavaScript Moderno
 
-Todos los archivos traducidos del canal original de ‘Net Ninja’.  Contienen las 6 lecciones del tutorial ‘Modern JavaScript Tutorial’.
+* Los usos de JavaScript son muchisimos (desde páginas web, front-end, back-end, relojes digitales, I.A., robots, etc)
+* se necesita un editor de texto o mejor aún un IDE (Integrated Development Platform).  La que usaremos es Visual Studio Code
+* como funciona un browser (qué es un servidor)
+* instalar el plug-in (paquete) llamado 'Live Server' para simular un servidor
+* crear página de HTML y verla en 
+* durante esta clase estaremos cambiando de Visual Studio Code a browser (navegador)
+* explicación de cómo ver el códing de los archivos de cursos en GitHub
 
-### Cómo usar este repositorio
 
-Cada lección en la traducción de este curso tiene su propia rama (branch) de GitHub en este repositorio.  Para usar, seleccionar el branch (rama) correcta para cada lección. Por ejemplo, para la lección 7 seleccionar lección-7 del drop-down de branch (ramas) del repositorio (arriba a la izquierda).
+### Instalar Visual Studio Code
+* Navegar a la página de download de Visual Studio Code (Microsoft)
+
+### Explicación de Servidor (Instalación y uso de Live Server)
+* Abrir VS Code e instalar Live Server
+* Abrir página index.html en Live Server y ver en navegador (dirección local - http://localhost)
+
+### Explicación como usar GitHub y cambiar de ramas para ver código de lecciones
+* Navegar a https://github.com/ninjadelcodigo/tutorial-javascript
+* Usar drop-down (list de caida)
+
 
 **Link al curso traducido en YouTube:** [JavaScript Moderno](https://www.youtube.com/channel/UCuSHTq2yiCY5QBNoEXv8JpA/)
 
