@@ -1,10 +1,10 @@
-// variable y constants
+// variables y constantes
 let radio = 10;
 const pi = 3.14;
 
 console.log(radio, pi);
 
-// math operators +, -, *, /, **, %
+// operadores matemáticos +, -, *, /, **, %
 console.log(10 /  2);
 
 let resultado = radio % 3;
@@ -17,7 +17,7 @@ console.log(area);
 let matematicas = 5 * (10-3)**2; 
 console.log(matematicas);
 
-// sum and rest to a variable
+// sumar y restar a una variable
 let puntos = 7;
 puntos = puntos + 1;  // suma un punto
 console.log(puntos);
@@ -42,6 +42,7 @@ console.log(puntos);
 console.log(10 / 'hello');
 console.log(5 * 'hello');
 
+// concatenar numeros a cadenas 
 let likes = 50;
-let concat = 'El blog tiene ' + likes + ' likes';
-console.log(concat);
+let resultadoConcat = 'El blog tiene ' + likes + ' likes';
+console.log(resultadoConcat);
