@@ -1,4 +1,4 @@
-# Tutorial de JavaScript Moderno - Lección 8 (undefined y null) (Arrays)
+# Tutorial de JavaScript Moderno - Lección 9 (Booleanos)
 * undefined (no definido)
 * no se puede usar en formula (resulta en en NaN)
 * cambiar elemento de array
