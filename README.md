@@ -1,6 +1,6 @@
-# Tutorial de JavaScript Moderno - Lección 7 (Arreglos) (Arrays)
-* ejemplo simple de arreglos
-* acceder valor de array usando indice
+# Tutorial de JavaScript Moderno - Lección 8 (undefined y null) (Arrays)
+* undefined (no definido)
+* no se puede usar en formula (resulta en en NaN)
 * cambiar elemento de array
 * métodos de arreglos 
 * métodos destructivos (cambian el valor original de variable)
