@@ -1,18 +1,31 @@
-let edad = 25;
+let puntaje = '100';
+console.log(puntaje);
 
-// comparación suelta (diferentes tipos aún pueden ser iguales)
-console.log(edad == 25);
-console.log(edad == '25');    // true
+// conversión a Number
+puntaje = Number(puntaje);
+console.log(puntaje);
 
-// comparación suelta (diferentes tipos no pueden ser iguales)
-console.log(edad === 25);
-console.log(edad === '25');   // false
+// intentar convertir una cadena no númerica a un Number (NaN / No es un Número)
+let resultado = Number('hola');
+console.log(resultado);
 
-// más ejemplos (sueltas)
-console.log(edad != 25);        
-console.log(edad != '25');    // true    
+resultado = String(50);
+console.log(resultado);
 
-// mucho mejor (estrictas)
-console.log(edad !== 25)
-console.log(edad !== 30)
-console.log(edad !== '25')    // true
+// valores truthy (verdaderin) y falsy (falsin)
+resultado = Boolean(100);   // truthy
+console.log(resultado);
+
+resultado = Boolean(0);   // falsy
+console.log(resultado);
+
+resultado = Boolean(-1);   // falsy
+console.log(resultado);
+
+// typeof (tipo de)
+console.log(resultado, typeof(resultado));
+
+let resultadoCadena = 'hola';
+console.log(resultadoCadena, typeof(resultadoCadena));
+
+// * Nota:  estas conversiónes han sido explictas.  también existen conversiones implicitas que vermos luego
