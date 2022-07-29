@@ -1,10 +1,10 @@
-## JavaScript Moderno - Lección 11 (Conversión de Tipos)
+## JavaScript Moderno - Lección 12 (Flujo de Control - Bucles)
 
-* conversión a Number
-* intentar convertir una cadena no númerica a un Number (NaN / No es un Número)
-* valores truthy (verdaderin) y falsy (falsin)
-* typeof (tipo de)
-* * Nota:  estas conversiónes han sido explictas.  también existen conversiones implicitas que vermos luego
+* bucles for (declaración simple usa tres condiciones)
+* cuando no sabemos cuando terminar (bucle sobre data o arreglo de tamaño desconocido)
+* así tambien podemos crear pequeños templates (platillas) de HTML
+* bucles while (usa una sola condicion pero la variable usada debe existir como 'condicion')
+* bucles do while
 
 
 **Link al curso traducido en YouTube:** [JavaScript Moderno](https://www.youtube.com/channel/UCuSHTq2yiCY5QBNoEXv8JpA/)

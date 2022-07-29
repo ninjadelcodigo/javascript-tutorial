@@ -1,31 +1,47 @@
-let puntaje = '100';
-console.log(puntaje);
 
-// conversión a Number
-puntaje = Number(puntaje);
-console.log(puntaje);
+// bucles for (declaración simple usa tres condiciones)
+for (let i = 0; i < 5; i++) {
+    console.log('en bucle for', i);
+}
 
-// intentar convertir una cadena no númerica a un Number (NaN / No es un Número)
-let resultado = Number('hola');
-console.log(resultado);
+console.log('bucle ha terminado');
 
-resultado = String(50);
-console.log(resultado);
+// cuando no sabemos cuando terminar (bucle sobre data o arreglo de tamaño desconocido)
+let nombres = ['peach', 'mario', 'luigi'];
 
-// valores truthy (verdaderin) y falsy (falsin)
-resultado = Boolean(100);   // truthy
-console.log(resultado);
+// usamos el indice/contador del bucle para acceder al arreglo usando paréntesis cuadrados []
+for (let i = 0; i < nombres.length; i++) {
+    console.log(i, nombres[i]);
+}
 
-resultado = Boolean(0);   // falsy
-console.log(resultado);
+// así tambien podemos crear pequeños templates (platillas) de HTML
+for (let i = 0; i < nombres.length; i++) {
+    let html = `<div>${nombres[i]}</div>`;
+    console.log(html);
+}
 
-resultado = Boolean(-1);   // falsy
-console.log(resultado);
+// bucles while (usa una sola condicion pero la variable usada debe existir como 'condicion')
+let i = 0;
 
-// typeof (tipo de)
-console.log(resultado, typeof(resultado));
+// bucle infinito (evitar esto)
+// while (i < 5) {
 
-let resultadoCadena = 'hola';
-console.log(resultadoCadena, typeof(resultadoCadena));
+// }
 
-// * Nota:  estas conversiónes han sido explictas.  también existen conversiones implicitas que vermos luego
+// bucle while equivalente al primer bucle al comienzo de este archivo
+while (i < 5) {
+    console.log('en bucle while', i);
+    i++;
+}
+
+console.log('bucle while terminado');
+
+// bucles do while
+let j = 3;
+do {
+    console.log('valor de j es:', j)
+    j++;
+
+} while(j < 5)
+
+console.log('bucle do while terminado');
