@@ -1,9 +1,10 @@
 # Tutorial de JavaScript Moderno - Lección 9 (Booleanos)
-* undefined (no definido)
-* no se puede usar en formula (resulta en en NaN)
-* cambiar elemento de array
-* métodos de arreglos 
-* métodos destructivos (cambian el valor original de variable)
+* booleanos y comparaciones
+* los métodos pueden retornar booleanos (en cadenas)
+* los métodos pueden retornar booleanos (en arreglos)
+* operadores de comparación (usar doble igual para comparar en vez de asignar)
+* comparación 'diferente que'
+* las minusculas son mayores que cualquier mayuscula (se comparan las letras en orden - la primera en el siguiente caso 's')
 
 
 **Link al curso traducido en YouTube:** [JavaScript Moderno](https://www.youtube.com/channel/UCuSHTq2yiCY5QBNoEXv8JpA/)
