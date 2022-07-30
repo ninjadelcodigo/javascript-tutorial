@@ -1,11 +1,9 @@
-## JavaScript Moderno - Lección 13 (if/else)
+## JavaScript Moderno - Lección 14 (Operadores Lógicos)
 
-* declaraciones if
-* if dentro de arreglos
-* usos más prácticos
-* else
-* else if
-* else if (se pueden repetir las veces que se plazcan)
+* operaciones lógicas - OR || y  AND &&
+* se puede usar las diferentes operaciones lógicas OR y AND juntas
+* logical NOT (!) - invierte el valor booleano de la variable (cuando 'no es')
+* Nota: cambiar valores de variables 'password' e 'ingresado' para ver diferentes caminos lógicos
 
 
 **Link al curso traducido en YouTube:** [JavaScript Moderno](https://www.youtube.com/channel/UCuSHTq2yiCY5QBNoEXv8JpA/)

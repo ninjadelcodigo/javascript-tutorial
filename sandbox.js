@@ -1,58 +1,32 @@
 
-// declaraciones if
-const edad = 25;
+// operaciones lógicas - OR || y  AND &&
+//let password = 'passw@rd;
+let password = 'passw@rd12345';
 
-if (edad > 25)  {
-    console.log('edad es mayor que 25');
-}
-
-if (edad == 25)  {
-    console.log('edad es exactmente 25');
-}
-
-// if dentro de arreglos
-let ninjas = ['peach', 'mario', 'yoshi'];
-
-if (ninjas.length > 3) {
-    console.log('hay bastantes ninjas');
-}
-
-ninjas =  ['peach', 'mario', 'yoshi', 'luigi'];
-
-if (ninjas.length > 3) {
-    console.log('hay bastantes ninjas');
-}
-
-// usos más prácticos
-let password = 'abcde';
-if (password.length > 8) {
-    console.log('el password es lo suficientemente largo');
-}
-
-// else
-password = 'abcdefghij';
-if (password.length > 8) {
-    console.log('el password es lo suficientemente largo :)');
+if (password.length >= 12 && password.includes('@')) {
+      console.log('la contraseña es bastante fuerte :)');
+} else if (password.length >= 8 || password.includes('@')) {
+    console.log('la contraseña es lo suficientemente fuerte');
 } else {
-    console.log('el password no tiene la longitud deseada');
+    console.log('la contraseña no es lo suficientemente fuerte');
 }
 
-// else if
-if (password.length > 8) {
-    console.log('el password es lo suficientemente largo :)');
-} else if (password.length == 8) {
-    console.log('el password es exactamente largo');
-}  else {
-    console.log('el password no tiene la longitud deseada');
-}
+// se puede usar las diferentes operaciones lógicas OR y AND juntas
+password = 'pas@';
 
-// else if (se pueden repetir las veces que se plazcan)
-if (password.length > 8) {
-    console.log('el password es lo suficientemente largo :)');
-} else if (password.length == 8) {
-    console.log('el password es exactamente de 8 caracteres');
-} else if (password.length == 7) {
-    console.log('el password es exactamente de 7 caracteres');
+if (password.length >= 12 && password.includes('@')) {
+      console.log('la contraseña es bastante fuerte :)');
+} else if (password.length >= 8 || password.includes('@') && password.length >= 5) {
+    console.log('la contraseña es lo suficientemente fuerte');
 } else {
-    console.log('el password no tiene la longitud deseada');
+    console.log('la contraseña no es lo suficientemente fuerte');
 }
+
+// logical NOT (!) - invierte el valor booleano de la variable
+let ingresado = false;
+
+if (!ingresado)  {
+    console.log('el usuario debe iniciar sesión');
+}
+
+// cambiar valores de variables 'password' e 'ingresado' para ver diferentes caminos lógicos
