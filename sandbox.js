@@ -1,47 +1,58 @@
 
-// bucles for (declaración simple usa tres condiciones)
-for (let i = 0; i < 5; i++) {
-    console.log('en bucle for', i);
+// declaraciones if
+const edad = 25;
+
+if (edad > 25)  {
+    console.log('edad es mayor que 25');
 }
 
-console.log('bucle ha terminado');
-
-// cuando no sabemos cuando terminar (bucle sobre data o arreglo de tamaño desconocido)
-let nombres = ['peach', 'mario', 'luigi'];
-
-// usamos el indice/contador del bucle para acceder al arreglo usando paréntesis cuadrados []
-for (let i = 0; i < nombres.length; i++) {
-    console.log(i, nombres[i]);
+if (edad == 25)  {
+    console.log('edad es exactmente 25');
 }
 
-// así tambien podemos crear pequeños templates (platillas) de HTML
-for (let i = 0; i < nombres.length; i++) {
-    let html = `<div>${nombres[i]}</div>`;
-    console.log(html);
+// if dentro de arreglos
+let ninjas = ['peach', 'mario', 'yoshi'];
+
+if (ninjas.length > 3) {
+    console.log('hay bastantes ninjas');
 }
 
-// bucles while (usa una sola condicion pero la variable usada debe existir como 'condicion')
-let i = 0;
+ninjas =  ['peach', 'mario', 'yoshi', 'luigi'];
 
-// bucle infinito (evitar esto)
-// while (i < 5) {
-
-// }
-
-// bucle while equivalente al primer bucle al comienzo de este archivo
-while (i < 5) {
-    console.log('en bucle while', i);
-    i++;
+if (ninjas.length > 3) {
+    console.log('hay bastantes ninjas');
 }
 
-console.log('bucle while terminado');
+// usos más prácticos
+let password = 'abcde';
+if (password.length > 8) {
+    console.log('el password es lo suficientemente largo');
+}
 
-// bucles do while
-let j = 3;
-do {
-    console.log('valor de j es:', j)
-    j++;
+// else
+password = 'abcdefghij';
+if (password.length > 8) {
+    console.log('el password es lo suficientemente largo :)');
+} else {
+    console.log('el password no tiene la longitud deseada');
+}
 
-} while(j < 5)
+// else if
+if (password.length > 8) {
+    console.log('el password es lo suficientemente largo :)');
+} else if (password.length == 8) {
+    console.log('el password es exactamente largo');
+}  else {
+    console.log('el password no tiene la longitud deseada');
+}
 
-console.log('bucle do while terminado');
+// else if (se pueden repetir las veces que se plazcan)
+if (password.length > 8) {
+    console.log('el password es lo suficientemente largo :)');
+} else if (password.length == 8) {
+    console.log('el password es exactamente de 8 caracteres');
+} else if (password.length == 7) {
+    console.log('el password es exactamente de 7 caracteres');
+} else {
+    console.log('el password no tiene la longitud deseada');
+}

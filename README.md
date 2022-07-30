@@ -1,10 +1,11 @@
-## JavaScript Moderno - Lección 12 (Flujo de Control - Bucles)
+## JavaScript Moderno - Lección 13 (if/else)
 
-* bucles for (declaración simple usa tres condiciones)
-* cuando no sabemos cuando terminar (bucle sobre data o arreglo de tamaño desconocido)
-* así tambien podemos crear pequeños templates (platillas) de HTML
-* bucles while (usa una sola condicion pero la variable usada debe existir como 'condicion')
-* bucles do while
+* declaraciones if
+* if dentro de arreglos
+* usos más prácticos
+* else
+* else if
+* else if (se pueden repetir las veces que se plazcan)
 
 
 **Link al curso traducido en YouTube:** [JavaScript Moderno](https://www.youtube.com/channel/UCuSHTq2yiCY5QBNoEXv8JpA/)
