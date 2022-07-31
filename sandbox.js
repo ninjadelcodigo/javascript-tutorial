@@ -1,32 +1,28 @@
 
-// operaciones lógicas - OR || y  AND &&
-//let password = 'passw@rd;
-let password = 'passw@rd12345';
+// arreglo de enteros
+const resultados = [50, 25, 0, 30, 100, 20, 10, 10];
 
-if (password.length >= 12 && password.includes('@')) {
-      console.log('la contraseña es bastante fuerte :)');
-} else if (password.length >= 8 || password.includes('@')) {
-    console.log('la contraseña es lo suficientemente fuerte');
-} else {
-    console.log('la contraseña no es lo suficientemente fuerte');
+// usar 'break' para dejar de iterar por los resultados
+for (let i = 0; i < resultados.length; i++) {
+
+    console.log('el resultado es: ', resultados[i]);
+
+    if (resultados[i] == 100) {
+        console.log('¡felicitaciones! obeniste el resultado más alto');
+        break;
+    }
 }
 
-// se puede usar las diferentes operaciones lógicas OR y AND juntas
-password = 'pas@';
+// usar 'continue' para ignorar el código dentro del bloque de código y continuar con la siguiente iteración
+for (let i = 0; i < resultados.length; i++) {
 
-if (password.length >= 12 && password.includes('@')) {
-      console.log('la contraseña es bastante fuerte :)');
-} else if (password.length >= 8 || password.includes('@') && password.length >= 5) {
-    console.log('la contraseña es lo suficientemente fuerte');
-} else {
-    console.log('la contraseña no es lo suficientemente fuerte');
+    if (resultados[i] == 0) {
+        continue;
+    }
+    console.log('el resultado es: ', resultados[i]);
+
+    if (resultados[i] == 100) {
+        console.log('¡felicitaciones! obeniste el resultado más alto');
+        break;
+    }
 }
-
-// logical NOT (!) - invierte el valor booleano de la variable
-let ingresado = false;
-
-if (!ingresado)  {
-    console.log('el usuario debe iniciar sesión');
-}
-
-// cambiar valores de variables 'password' e 'ingresado' para ver diferentes caminos lógicos

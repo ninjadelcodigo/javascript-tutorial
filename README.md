@@ -1,9 +1,7 @@
-## JavaScript Moderno - Lección 14 (Operadores Lógicos)
+## JavaScript Moderno - Lección 15 (Combinando búcles y condicionales)
 
-* operaciones lógicas - OR || y  AND &&
-* se puede usar las diferentes operaciones lógicas OR y AND juntas
-* logical NOT (!) - invierte el valor booleano de la variable (cuando 'no es')
-* Nota: cambiar valores de variables 'password' e 'ingresado' para ver diferentes caminos lógicos
+* usar 'break' para dejar de iterar por los resultados
+* usar 'continue' para ignorar el código dentro del bloque de código y continuar con la siguiente iteración
 
 
 **Link al curso traducido en YouTube:** [JavaScript Moderno](https://www.youtube.com/channel/UCuSHTq2yiCY5QBNoEXv8JpA/)
