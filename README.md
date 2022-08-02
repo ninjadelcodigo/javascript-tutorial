@@ -1,4 +1,4 @@
-## JavaScript Moderno - Lección 20 (Funciones que toman arreglos)
+## JavaScript Moderno - Lección 19 (Funciones que retornan un valor)
 
 * definir una función expresada que retorna un valor
 * llamar a la función expresada
