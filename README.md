@@ -1,10 +1,8 @@
-## JavaScript Moderno - Lección 16 (declaración Swtich)
+## JavaScript Moderno - Lección 17 (Alcance de Variables)
 
-* usar switch para chequear el valor de la variable 'grado'
-* modificar la viable 'grado' para obtener el caso ('case') diferente
-* Nota: las verificacioness de los case son suceptibles grado = 10 es diferente a grado = '10'
-* usar 'switch(true)' para hacer comparaciones de números enteros en un switch 
-* modificar la viable 'nota' para obtener el caso ('case') diferente
+* como hemos visto se puede re-definir las variables en un bloque de codigo
+* bloques de código anidados
+* Nota: los bloques de código y su alcance en lo que concierne puede ser confusa (repetir lección para entenderlo bien)
 
 
 **Link al curso traducido en YouTube:** [JavaScript Moderno](https://www.youtube.com/channel/UCuSHTq2yiCY5QBNoEXv8JpA/)
