@@ -1,56 +1,44 @@
 
-// declaración de función
-function saludar() {
-    console.log('hola!');
-}
-
-// llamar una función declarada
-saludar();
-saludar();
-
-// expresión de función  (notar el punto y coma al final de este bloque de código)
-const despedirse = function() {
-    console.log('adios!')
+// definir una función expresada que retorna un valor
+const calcularArea = function(radio)  { 
+    let area = 3.14 * radio**2;
+    return area;
 };
 
-// llamar una función declarada
-despedirse();
-despedirse();
-despedirse();
+// llamar a la función expresada
+let area = calcularArea(5);
+console.log('area es: ' + area);
 
-// esta dos formas son casi iguales con la diferencia que las funciones expresadas son izadas por JavaScript
+// definir una función expresada que retorna un valor sin usar una variable interna
+const calcularAreaNueva = function(radio)  {
+    return 3.14 * radio**2;
+};
 
-hablar();
-hablar();
 
-function hablar() {
-    console.log('hablando');
+// invocar la nueva función expresada sin variable intermedia
+area = calcularAreaNueva(5);
+console.log('area es: ' + area);
+
+// funciones flecha (arrow functions) son una forma más corta y limpia de expresar funciones
+const calcularAreaFlecha = (radio) => {
+    return 3.14 * radio**2;
 }
 
-// nota: sin embardo, declarar una función después de llamarla es una mala práctica ya que se complica la lecura del código
+// llamar la nueva función expresada (flecha)
+area = calcularAreaFlecha(5);
+console.log('area es: ' + area);
 
-// funciones con parametros
-const hablarle = function(frase, persona)  {
-    console.log(frase, persona);
+// simplificar función flecha (los parentesis no son necesarios cuando solo hay uno)
+const calcularAreaFlechaReducida = radio => {
+    return 3.14 * radio**2;
 }
 
-// llamar a una función parametrizada
-hablarle('hola', 'peach');
-hablarle('adios', 'mario');
-hablarle('hablando con', 'yoshi');
+area = calcularAreaFlechaReducida(5);
+console.log('area es: ' + area);
 
-// error si el parametro de una función es llamado afuera de la función
-// persona = 'peach';
+// cuando se retorna algo más simple se puede simplificar incluso más
+const calcularAreaFlechaReducidaMas = radio =>  3.14 * radio**2;
 
-// si no se pasan parametros los parametros asumen el valor 'Undefined'
-hablarle(); 
+area = calcularAreaFlechaReducidaMas(5);
+console.log('area es: ' + area);
 
-// funcion con valores de parametros por definición
-const decirle = function(frase = 'hello', persona = 'shaun')  {
-    console.log(frase, persona);
-}
-
-// al llamar una funcion con parametros por defición los parametrós no pasados asumen los valores por definicion
-decirle();
-decirle('hola');
-decirle('adios', 'peach');
