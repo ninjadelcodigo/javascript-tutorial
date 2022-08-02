@@ -1,44 +1,31 @@
 
-// definir una función expresada que retorna un valor
-const calcularArea = function(radio)  { 
-    let area = 3.14 * radio**2;
-    return area;
+// definir una función expresada que retorna un valor (versión larga)
+const calcularCuentaLarga = function(productos, impuesto)  {
+    let total = 0;
+    for (let i = 0; i < productos.length; i++) {
+        total += productos[i] * impuesto;
+    }
+    return total;
 };
 
-// llamar a la función expresada
-let area = calcularArea(5);
-console.log('area es: ' + area);
+// invocar la función calucarCuenta dentro de console.log()
+console.log('la cuenta es: ' + calcularCuentaLarga([10, 15, 30], 0.2));
 
-// definir una función expresada que retorna un valor sin usar una variable interna
-const calcularAreaNueva = function(radio)  {
-    return 3.14 * radio**2;
+// definir una función expresada que retorna un valor (versión flecha)
+const calcularCuenta = (productos, impuesto) => {
+    let total = 0;
+    for (let i = 0; i < productos.length; i++) {
+        total += productos[i] * impuesto;
+    }
+    return total;
 };
 
+// invocar la función calucarCuenta usando parametros con varaiables defindas y guardar resultado en variable
+let productos = [10, 15, 30];
+let impuesto = 0.2
 
-// invocar la nueva función expresada sin variable intermedia
-area = calcularAreaNueva(5);
-console.log('area es: ' + area);
+let cuenta = calcularCuenta(productos, impuesto);
 
-// funciones flecha (arrow functions) son una forma más corta y limpia de expresar funciones
-const calcularAreaFlecha = (radio) => {
-    return 3.14 * radio**2;
-}
+console.log('la cuenta es: ' + cuenta);
 
-// llamar la nueva función expresada (flecha)
-area = calcularAreaFlecha(5);
-console.log('area es: ' + area);
-
-// simplificar función flecha (los parentesis no son necesarios cuando solo hay uno)
-const calcularAreaFlechaReducida = radio => {
-    return 3.14 * radio**2;
-}
-
-area = calcularAreaFlechaReducida(5);
-console.log('area es: ' + area);
-
-// cuando se retorna algo más simple se puede simplificar incluso más
-const calcularAreaFlechaReducidaMas = radio =>  3.14 * radio**2;
-
-area = calcularAreaFlechaReducidaMas(5);
-console.log('area es: ' + area);
-
+// nota:  durante este curso usaremos mayormente las funciones flecha.  sin emgarbo, hay algunas desventajas en hacerlo que explicaré luego

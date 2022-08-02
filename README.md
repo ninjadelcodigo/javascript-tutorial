@@ -1,13 +1,10 @@
-## JavaScript Moderno - Lección 19 (Funciones que retornan un valor)
+## JavaScript Moderno - Lección 20 (Funciones que toman arreglos como parámetros)
 
-* definir una función expresada que retorna un valor
-* llamar a la función expresada
-* definir una función expresada que retorna un valor sin usar una variable interna
-* invocar la nueva función expresada sin variable intermedia
-* llamar la nueva función expresada (flecha)
-* simplificar función flecha (los parentesis no son necesarios cuando solo hay uno)
-* cuando se retorna algo más simple se puede simplificar incluso más
-
+* definir una función expresada que retorna un valor (versión larga)
+* invocar la función calucarCuenta dentro de console.log()
+* definir una función expresada que retorna un valor (versión flecha)
+* invocar la función calucarCuenta usando parametros con varaiables defindas y guardar resultado en variable
+*  nota:  durante este curso usaremos mayormente las funciones flecha.  sin emgarbo, hay algunas desventajas en hacerlo que explicaré luego
 
 **Link al curso traducido en YouTube:** [JavaScript Moderno](https://www.youtube.com/channel/UCuSHTq2yiCY5QBNoEXv8JpA/)
 
