@@ -1,4 +1,4 @@
-## JavaScript Moderno - Lección 17 (Introducción a funciones)
+## JavaScript Moderno - Lección 18 (Introducción a funciones)
 
 * declaración de función
 * llamar una función declarada
