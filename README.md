@@ -1,10 +1,10 @@
-## JavaScript Moderno - Lección 20 (Funciones que toman arreglos como parámetros)
+## JavaScript Moderno - Lección 21 (Introducción a métodos)
 
-* definir una función expresada que retorna un valor (versión larga)
-* invocar la función calucarCuenta dentro de console.log()
-* definir una función expresada que retorna un valor (versión flecha)
-* invocar la función calucarCuenta usando parametros con varaiables defindas y guardar resultado en variable
-*  nota:  durante este curso usaremos mayormente las funciones flecha.  sin emgarbo, hay algunas desventajas en hacerlo que explicaré luego
+* revisar una función flecha reducida
+* las funciones son invocadas usando doble paréntisis ()
+* invocar una función sin usar la noticación punto
+* los métoods son funciones que le pertenecen a objetos 
+* invocar un método con la notación  punto 
 
 **Link al curso traducido en YouTube:** [JavaScript Moderno](https://www.youtube.com/channel/UCuSHTq2yiCY5QBNoEXv8JpA/)
 

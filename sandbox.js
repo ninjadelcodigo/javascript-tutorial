@@ -1,31 +1,15 @@
 
-// definir una función expresada que retorna un valor (versión larga)
-const calcularCuentaLarga = function(productos, impuesto)  {
-    let total = 0;
-    for (let i = 0; i < productos.length; i++) {
-        total += productos[i] * impuesto;
-    }
-    return total;
-};
+const nombre = 'peach';
 
-// invocar la función calucarCuenta dentro de console.log()
-console.log('la cuenta es: ' + calcularCuentaLarga([10, 15, 30], 0.2));
+// revisar una función flecha reducida
+const saludar = (nombre) => 'hola, '  + nombre;
 
-// definir una función expresada que retorna un valor (versión flecha)
-const calcularCuenta = (productos, impuesto) => {
-    let total = 0;
-    for (let i = 0; i < productos.length; i++) {
-        total += productos[i] * impuesto;
-    }
-    return total;
-};
+// las funciones son invocadas usando doble paréntisis ()
+// invocar una función sin usar la noticación punto 
+let resultadoUno = saludar(nombre);
+console.log(resultadoUno);
 
-// invocar la función calucarCuenta usando parametros con varaiables defindas y guardar resultado en variable
-let productos = [10, 15, 30];
-let impuesto = 0.2
-
-let cuenta = calcularCuenta(productos, impuesto);
-
-console.log('la cuenta es: ' + cuenta);
-
-// nota:  durante este curso usaremos mayormente las funciones flecha.  sin emgarbo, hay algunas desventajas en hacerlo que explicaré luego
+// los métoods son funciones que le pertenecen a objetos 
+// invocar un método con la notación  punto 
+let resultadoDos = nombre.toUpperCase();
+console.log(resultadoDos);
