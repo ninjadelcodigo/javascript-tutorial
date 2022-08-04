@@ -4,7 +4,7 @@
 * acceder el elemento 'personas' (ul) del documento HTML
 * crear un arreglo llamado personas dentro de JavaScript
 * crear una plantilla de HTML vacía
-* iterar por cada persona y crear un elemento de HTML <li> por persona y una cadena de <li>s para insertar a HTML
+* iterar por cada persona y crear un elemento de HTML 'li' por persona y una cadena de 'li's para insertar a HTML
 * resetear contenido de HTML
 * convertir a versión flecha
 * volver a poner HTML dentro de la página HTML (dentro del element ul)
