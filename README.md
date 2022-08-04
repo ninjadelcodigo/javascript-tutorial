@@ -1,10 +1,13 @@
-## JavaScript Moderno - Lección 21 (Introducción a métodos)
+## JavaScript Moderno - Lección 22 (callbacks & foreach)
 
-* revisar una función flecha reducida
-* las funciones son invocadas usando doble paréntisis ()
-* invocar una función sin usar la noticación punto
-* los métoods son funciones que le pertenecen a objetos 
-* invocar un método con la notación  punto 
+* callbacks (retrollamadas) & foreach 
+* invocar miFunc pasandole una callback función (retrollamada)
+* forma redicida
+* crear un arreglo de personas
+* método forEach con una retrollamada con función flecha
+* método forEach con una retrollamada con función flecha con dos parametros (el segundo parametro es un iterador del loop por definición)
+* crear una función ha ser retrollamada por seaparado
+* invocar la funcion callback logPersona() dentro de forEach()
 
 **Link al curso traducido en YouTube:** [JavaScript Moderno](https://www.youtube.com/channel/UCuSHTq2yiCY5QBNoEXv8JpA/)
 

@@ -1,15 +1,41 @@
+// callbacks & foreach  
+const miFunc = (callbackFunc) => {
+    let valor = 50;
+    callbackFunc(valor);
+};
 
-const nombre = 'peach';
+// invocar miFunc pasandole una callback función (retrollamada)
+miFunc(function(valor) {
+    console.log(valor);
+});
 
-// revisar una función flecha reducida
-const saludar = (nombre) => 'hola, '  + nombre;
+// forma redicida
+miFunc(valor => {
+    console.log(valor);
+});
 
-// las funciones son invocadas usando doble paréntisis ()
-// invocar una función sin usar la noticación punto 
-let resultadoUno = saludar(nombre);
-console.log(resultadoUno);
+// crear un arreglo de personas
+let personajes = ['peach', 'mario', 'yoshi', 'luigi', 'wario', 'bowser'];
 
-// los métoods son funciones que le pertenecen a objetos 
-// invocar un método con la notación  punto 
-let resultadoDos = nombre.toUpperCase();
-console.log(resultadoDos);
+// método forEach con una retrollamada
+personajes.forEach(function(personaje) {
+    console.log(personaje);    
+});
+
+// método forEach con una retrollamada con función flecha
+personajes.forEach(personaje => {
+    console.log(personaje);
+});
+
+// método forEach con una retrollamada con función flecha con dos parametros (el segundo parametro es un iterador del loop por definición)
+personajes.forEach((personaje, indice) => {
+    console.log(personaje, indice);
+});
+
+// crear una función ha ser retrollamada por seaparado
+const logPersona = (personaje, indice) => {
+    console.log(`hola ${personaje} tu indice es ${indice}`);
+}
+
+// invocar la funcion callback logPersona() dentro de forEach()
+personajes.forEach(logPersona)
