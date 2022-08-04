@@ -1,13 +1,13 @@
-## JavaScript Moderno - Lección 22 (callbacks & foreach)
+## JavaScript Moderno - Lección 23 (Retrollamadas en acción)
 
-* callbacks (retrollamadas) & foreach 
-* invocar miFunc pasandole una callback función (retrollamada)
-* forma redicida
-* crear un arreglo de personas
-* método forEach con una retrollamada con función flecha
-* método forEach con una retrollamada con función flecha con dos parametros (el segundo parametro es un iterador del loop por definición)
-* crear una función ha ser retrollamada por seaparado
-* invocar la funcion callback logPersona() dentro de forEach()
+* modificar index.hml para includir una lista ul de clase 'personas'
+* acceder el elemento 'personas' (ul) del documento HTML
+* crear un arreglo llamado personas dentro de JavaScript
+* crear una plantilla de HTML vacía
+* iterar por cada persona y crear un elemento de HTML <li> por persona y una cadena de <li>s para insertar a HTML
+* resetear contenido de HTML
+* convertir a versión flecha
+* volver a poner HTML dentro de la página HTML (dentro del element ul)
 
 **Link al curso traducido en YouTube:** [JavaScript Moderno](https://www.youtube.com/channel/UCuSHTq2yiCY5QBNoEXv8JpA/)
 
