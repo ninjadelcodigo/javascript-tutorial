@@ -1,4 +1,4 @@
-## JavaScript Moderno - Lección 23 (Retrollamadas en acción)
+## JavaScript Moderno - Lección 24 (Retrollamadas en acción)
 
 * modificar index.hml para includir una lista ul de clase 'personas'
 * acceder el elemento 'personas' (ul) del documento HTML
