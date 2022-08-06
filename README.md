@@ -1,19 +1,18 @@
-## JavaScript Moderno - Lección 24 (Introducción a objetos)
+## JavaScript Moderno - Lección 25 (Métodos de objetos)
 
-los objectos en JS, como los objetos de la vida real, tiene propiedades y cosas que puede hacer (métodos). por ejemplo un objeto 'email' usuario tiene propiedades (nombre, email y sexo) y metodos (login y logout). un objeto 'blog' tiene propiedades 'titulo', 'contenido' y 'autor' y métodos como 'publicar', 'despublicar' y 'borrar'.
+Añadir métodos a un objeto es similar a añadir una propiedad (par llave-valor)
 
-* literales de objeto
+* literales de objetos (como declarar un objeto)
 * examinar el usuario creado en la consola del navegador
-* nota: la usuario 'claudia' tiene una propiedad importante llamada 'prototype' o 'proto' que examinaremos luego
-* mostrar la edad del usuario
-* mostrar el nombre del usuario
-* cambiar la propiedad 'edad' del usuario
-* también se puede usar paréntesis cuadrados [] para cambiar un valor de una propiedad de un objeto
-* la máyoria del tiempo es más claro usar la 'notación punto' (usuario) pero los parentesis sirven cuando el nombre de la propiedad es variable
-* es posible añadir una nueva propiedad despues de haber declarado el objeto
-* ( después de 4 años clauda y tiene pais :) ) 
+* invocar métodos de objeto
+* usar 'blogs' no es posible (cuasa error) es necesario usar 'this'
+* nota: 'this' implica el contexto de el código.  por ejemplo si se usa dentro de un documento se refiere al objeto global (a la ventana del navegador)
+* luego se puede usar forEach dentro de this.blogs ya que es un método que le pertenece al objeto arreglo (Array)
+* IMPORTANTE: notar que en logBlogs() no usamos una función flecha.  esto es intencional ya que al usar una función flecha, JS no le cambia el valor a 'this' al objeto
+* sin embargo se puede emitir la palabra function y usar simplemente parentesis
+* usando el objeto nuevo
 
-la siguiente lección describirá como añadir métodos a un objeto
+la proxima lección veremos como manejar mejor arreglos dentro de objetos
 
 **Link al curso traducido en YouTube:** [JavaScript Moderno](https://www.youtube.com/channel/UCuSHTq2yiCY5QBNoEXv8JpA/)
 
