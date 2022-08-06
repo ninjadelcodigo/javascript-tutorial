@@ -1,13 +1,19 @@
-## JavaScript Moderno - Lección 23 (Retrollamadas en acción)
+## JavaScript Moderno - Lección 24 (Introducción a objetos)
 
-* modificar index.hml para includir una lista ul de clase 'personas'
-* acceder el elemento 'personas' (ul) del documento HTML
-* crear un arreglo llamado personas dentro de JavaScript
-* crear una plantilla de HTML vacía
-* iterar por cada persona y crear un elemento de HTML 'li' por persona y una cadena de 'li's para insertar a HTML
-* resetear contenido de HTML
-* convertir a versión flecha
-* volver a poner HTML dentro de la página HTML (dentro del element ul)
+los objectos en JS, como los objetos de la vida real, tiene propiedades y cosas que puede hacer (métodos). por ejemplo un objeto 'email' usuario tiene propiedades (nombre, email y sexo) y metodos (login y logout). un objeto 'blog' tiene propiedades 'titulo', 'contenido' y 'autor' y métodos como 'publicar', 'despublicar' y 'borrar'.
+
+* literales de objeto
+* examinar el usuario creado en la consola del navegador
+* nota: la usuario 'claudia' tiene una propiedad importante llamada 'prototype' o 'proto' que examinaremos luego
+* mostrar la edad del usuario
+* mostrar el nombre del usuario
+* cambiar la propiedad 'edad' del usuario
+* también se puede usar paréntesis cuadrados [] para cambiar un valor de una propiedad de un objeto
+* la máyoria del tiempo es más claro usar la 'notación punto' (usuario) pero los parentesis sirven cuando el nombre de la propiedad es variable
+* es posible añadir una nueva propiedad despues de haber declarado el objeto
+* después de 4 años clauda y tiene pais :) 
+
+la siguiente lección describirá como añadir métodos a un objeto
 
 **Link al curso traducido en YouTube:** [JavaScript Moderno](https://www.youtube.com/channel/UCuSHTq2yiCY5QBNoEXv8JpA/)
 
