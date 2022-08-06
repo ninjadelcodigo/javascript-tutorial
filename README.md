@@ -11,7 +11,7 @@ los objectos en JS, como los objetos de la vida real, tiene propiedades y cosas 
 * también se puede usar paréntesis cuadrados [] para cambiar un valor de una propiedad de un objeto
 * la máyoria del tiempo es más claro usar la 'notación punto' (usuario) pero los parentesis sirven cuando el nombre de la propiedad es variable
 * es posible añadir una nueva propiedad despues de haber declarado el objeto
-* después de 4 años clauda y tiene pais :) 
+* ( después de 4 años clauda y tiene pais :) ) 
 
 la siguiente lección describirá como añadir métodos a un objeto
 
