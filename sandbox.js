@@ -53,19 +53,19 @@ usuario.flecha();
 
 // sin embargo se puede emitir la palabra function y usar simplemente parentesis
 let usuarioNuevo = {
-    nombre: 'yoshi',
-    email: 'yoshi@ninjasdelcodigo.pe',
+    nombre: 'peach',
+    email: 'peach@ninjasdelcodigo.pe',
     edad: 22,
     ciudad: 'paris',
     blogs: ['como cocincar brownies', 'mi gato no ladra', 'aprendiendo a programar mejor'],
     login() {
-        console.log(`usuairo ${this.nombre} ha iniciado su sesión`);
+        console.log(`${this.nombre} ha iniciado su sesión`);
     },
     logout() {
-        console.log(`usuairo ${this.nombre} ha cerrado su sesión`);
+        console.log(`${this.nombre} ha cerrado su sesión`);
     },
     logBlogs() {
-        console.log(`usuario ${this.nombre} ha creado los siguientes blogs: `);
+        console.log(`${this.nombre} ha creado los siguientes blogs: `);
         this.blogs.forEach(titulo => {
             console.log(' * ' + titulo);
         })
@@ -74,7 +74,7 @@ let usuarioNuevo = {
 
 console.log(usuarioNuevo);
 
-// usando el objeto nuevo
+// usando el objeto nuevo (mejorado)
 usuarioNuevo.login();
 usuarioNuevo.logBlogs();
 usuarioNuevo.logout();

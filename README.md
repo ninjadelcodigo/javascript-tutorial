@@ -10,7 +10,10 @@ Añadir métodos a un objeto es similar a añadir una propiedad (par llave-valor
 * luego se puede usar forEach dentro de this.blogs ya que es un método que le pertenece al objeto arreglo (Array)
 * IMPORTANTE: notar que en logBlogs() no usamos una función flecha.  esto es intencional ya que al usar una función flecha, JS no le cambia el valor a 'this' al objeto
 * sin embargo se puede emitir la palabra function y usar simplemente parentesis
-* usando el objeto nuevo
+* usando el objeto nuevo (mejorado)
+
+importante recordar:
+* no usar funciones flechas dentro de literales de objetos
 
 la proxima lección veremos como manejar mejor arreglos dentro de objetos
 
